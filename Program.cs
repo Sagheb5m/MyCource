@@ -1,2 +1,4 @@
-int num1 = 2,num2 = 4;
+
+int num1 = Console.ReadLine();
+int num2 = Console.ReadLine();
 Console.WriteLine("Additional:"+(num1+num2));
