@@ -5,9 +5,12 @@ namespace HelloWorld
   {
     static void Main(string[] args)
     {
-int num1 = Console.ReadLine();
-int num2 = Console.ReadLine();
-Console.WriteLine("Additional:"+(num1+num2));
+            Console.WriteLine("Enter Num1");
+            int num1 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter Num2");
+            int num2 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Additional:" + (num1 + num2));
+            Console.ReadKey();
     }
   }
 }
