@@ -4,3 +4,8 @@
 cat /proc/cpuinfo
 فضای خالی هارد دیسک به مگابایت
 df –BM
+دوتا ادیتور لینوکس
+vim , gedit
+دریافت مشخصات کارت شبکه
+# lspci | egrep -i --color 'network|ethernet'
+
