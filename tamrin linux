@@ -1,2 +1,4 @@
 پیدا کردن حجیم ترین فایل
 # du -a /home | sort -n -r | head -n 5
+گرفتن مشخصات پردازنده
+cat /proc/cpuinfo
