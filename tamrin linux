@@ -1,0 +1,11 @@
+پیدا کردن حجیم ترین فایل
+# du -a /home | sort -n -r | head -n 5
+گرفتن مشخصات پردازنده
+cat /proc/cpuinfo
+فضای خالی هارد دیسک به مگابایت
+df –BM
+دوتا ادیتور لینوکس
+vim , gedit
+دریافت مشخصات کارت شبکه
+# lspci | egrep -i --color 'network|ethernet'
+
